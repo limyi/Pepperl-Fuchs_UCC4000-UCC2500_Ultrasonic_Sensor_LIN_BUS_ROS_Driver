@@ -39,4 +39,4 @@ This guide provides instructions to connect the Pepperl+Fuchs UCC4000 / UCC2500 
 
 ## LIN BUS Connection to Breakout Board
 
-[LIN BUS to Serial Breakout Board PDF](LIN BUS to Serial Breakout Board.pdf)
+[LIN BUS to Serial Breakout Board PDF]([LIN BUS to Serial Breakout Board.pdf](https://github.com/limyi/Pepperl-Fuchs_UCC4000-UCC2500_Ultrasonic_Sensor_LIN_BUS_ROS_Driver/blob/main/LIN%20BUS%20to%20Serial%20Breakout%20Board.pdf))
