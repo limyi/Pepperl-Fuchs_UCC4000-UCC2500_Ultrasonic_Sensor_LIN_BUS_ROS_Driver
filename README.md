@@ -36,3 +36,7 @@ This guide provides instructions to connect the Pepperl+Fuchs UCC4000 / UCC2500 
     ```bash
     rosrun ultrasonic_sensors ultrasonic_main.py
     ```
+
+## LIN BUS Connection to Breakout Board
+
+[LIN BUS to Serial Breakout Board PDF](LIN BUS to Serial Breakout Board.pdf)
