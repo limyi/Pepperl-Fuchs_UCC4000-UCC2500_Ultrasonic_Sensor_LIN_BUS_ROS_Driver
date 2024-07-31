@@ -1,19 +1,38 @@
-# Pepperl-Fuchs_UCC4000-UCC2500_Ultrasonic_Sensor_LIN_BUS_ROS_Driver
-Serial Connection to LIN BUS Breakout Board to UCC4000 / UCC2500 Pepperl+Fuchs Ultrasonic Sensor
-FOR LIN BUS CONNECION ENSURE THAT PWM MODE IS OFF
+# Pepperl+Fuchs UCC4000 / UCC2500 Ultrasonic Sensor LIN BUS ROS Driver
 
-cd ~/catkin_ws/src
+## Overview
+This guide provides instructions to connect the Pepperl+Fuchs UCC4000 / UCC2500 Ultrasonic Sensor via LIN BUS and run it using a ROS driver.
 
-copy paste ultrasonic_sensors package into /catkin_ws/src
+**Note:** Ensure that PWM mode is off for LIN BUS connection.
 
-cd /ultrasonic_sensors/src
+## Setup Instructions
 
-sudo chmod +x *
+1. **Clone the Repository**
+    ```bash
+    cd ~/catkin_ws/src
+    ```
 
-cd && cd catkin_ws
+2. **Copy and Paste the `ultrasonic_sensors` Package**
+    Copy the `ultrasonic_sensors` package into `/catkin_ws/src`.
 
-catkin_make
+3. **Make Scripts Executable**
+    ```bash
+    cd ~/catkin_ws/src/ultrasonic_sensors/src
+    sudo chmod +x *
+    ```
 
-source devel/setup.bash
+4. **Build the Catkin Workspace**
+    ```bash
+    cd ~/catkin_ws
+    catkin_make
+    ```
 
-rosrun ultrasonic_sensors ultrasonic_main.py
+5. **Source the Setup Script**
+    ```bash
+    source devel/setup.bash
+    ```
+
+6. **Run the ROS Node**
+    ```bash
+    rosrun ultrasonic_sensors ultrasonic_main.py
+    ```
